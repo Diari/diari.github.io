@@ -1,5 +1,2 @@
-<Response>
-<Sms>
-Thanks for the message. Please note this number is not monitored, please check the website for our contact details. Reply STOP to unsubscribe.Msg and Data rates may apply.
-</Sms>
-</Response>
+<?xml version="1.0" encoding="UTF-8"?>
+<Response><Sms>Thanks for the message. Please note this number is not monitored, please check the website for our contact details. Reply STOP to unsubscribe.Msg and Data rates may apply.</Sms></Response>
