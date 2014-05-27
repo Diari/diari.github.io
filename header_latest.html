@@ -1,29 +1,30 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safarya Travel</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    
     <style>
         @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
         @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400);
 
         * { 
-            margin: 0;
+            margin-top: 0;
+            margin-bottom:0;
+            margin-left:0;
+            margin-right:0;
             padding: 0;
             border: 0;
             background: 0;
             outline: 0;
-            box-sizing: border-box;
+          
             vertical-align: top;
         }
 
         body {
             background: url(../images/bgBody.png) 0 0 repeat;
             padding: 80px 0;
-            font: 12px/1.4 open sans,sans-serif;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            line-height: 1.42857143;
             color: #7b7b7b;
            
         }
@@ -42,14 +43,7 @@
             cursor: pointer;
         }
 
-        a, button { 
-            transition: background .3s linear;
-            -moz-transition: background .3s linear;
-            -webkit-transition: background .3s linear;
-            -o-transition: background .3s linear;
-            -ms-transition: background .3s linear;
-        }
-
+        
         ol, ul {
             list-style: none;
         }
@@ -72,21 +66,25 @@
             border-radius: 7px;
             -moz-border-radius: 7px;
             -webkitborder-radius: 7px;
-            box-shadow: 0 0 6px rgba(0,0,0,.3);
-            -moz-box-shadow: 0 0 6px rgba(0,0,0,.3);
-            -webkit-box-shadow: 0 0 6px rgba(0,0,0,.3);
+            border:1px solid rgba(0,0,0,.3);
+           
         }
 
         #banner .row, .aboutPage .row, .contactPage .row, .footerContainer .row, .homeContent .row { 
-            margin: 0;
+            margin-top: 0;
+            margin-bottom:0;
+            margin-left:0;
+            margin-right:0;
         }
 
         .headerContainer { 
             position: relative;
+            display: inline-block;
+            width: 100%;
         }
 
             .headerContainer:before {
-                content: '';
+               
                 background: url(../images/logoShadow.png) 0 0 no-repeat;
                 position: absolute;
                 top: 0;
@@ -156,11 +154,7 @@
                     margin: -40px -17px 0 0;
                 }
                 
-        .footerContainer { 
-            padding: 30px 0;
-            background: url(../images/topFooter.png) top center no-repeat;
-            font-size: 13px;
-        }
+      
 
             .footerContainer .module h3 { 
                 font-size: 18px;
@@ -173,13 +167,7 @@
                 text-transform: uppercase;
             }
 
-            .footerContainer .fLink li:before { 
-                content: '>';
-                margin: 0 4px 0 0;
-            }
-
-
-
+          
             .footerContainer .about .modCt { 
                 line-height: 22px;
                 font-size: 13px;
@@ -195,11 +183,11 @@
             }
 
         .fSocial:before { 
-            content: '';
+         
             position: absolute;
             top: 0;
             width: 25px;
-            border-top: 1px dashed #a3a3a3;
+            
         }
 
         .fSocial { 
@@ -238,9 +226,7 @@
 
         .newsletter form { 
             border: 1px solid #d6d6d6;
-            box-shadow: inset 2px 1px 2px rgba(204,194,187,.5);
-            -moz-box-shadow: inset 2px 1px 2px rgba(204,194,187,.5);
-            -webkit-box-shadow: inset 2px 1px 2px rgba(204,194,187,.5);
+           
             padding: 0 0 0 15px;
             border-radius: 15px;
             -moz-border-radius: 15px;
@@ -319,11 +305,17 @@
 
                 .headerContainer .language > div {
                     float: none!important;
-                    margin: 0!important;
+                    margin-top: 0!important;
+            margin-bottom:0 !important;
+            margin-left:0 !important;
+            margin-right:0 !important;
                 }
 
                 .headerContainer .social > div {
-                    margin: 0!important;
+                    margin-top: 0!important;
+            margin-bottom:0 !important;
+            margin-left:0 !important;
+            margin-right:0 !important;
                 }
         }
 
@@ -336,26 +328,26 @@
                 font-size: 20px!important;
             }
         }
-        /*!
- * Bootstrap v3.1.1 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
-        /*! normalize.css v3.0.0 | MIT License | git.io/normalize */ html { 
+         html { 
             font-family: sans-serif;
             -ms-text-size-adjust: 100%;
             -webkit-text-size-adjust: 100%;
         }
 
         body { 
-            margin: 0;
+            margin-top: 0;
+            margin-bottom:0;
+            margin-left:0;
+            margin-right:0;
         }
         
         button, input, optgroup, select, textarea { 
             color: inherit;
             font: inherit;
-            margin: 0;
+             margin-top: 0;
+            margin-bottom:0;
+            margin-left:0;
+            margin-right:0;
         }
 
         button {
@@ -384,17 +376,9 @@
             line-height: normal;
         }
         
-        * { 
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-        }
+       
 
-        :before, :after { 
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-        }
+        
 
         html { 
             font-size: 62.5%;
@@ -762,7 +746,7 @@
             }
 
             .col-md-5 {
-                width: 41.66666667%;
+                width: 28.66666667%;
             }
 
             .col-md-4 {
@@ -949,7 +933,7 @@
             .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after,
             .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before,
             .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
-                content: " ";
+               
                 display: table;
             }
 
@@ -969,7 +953,7 @@
             <div class="headerContainer">
                 <div class="row">
                     <div class="logo col-md-5 col-sm-5">
-                        <a href="/">
+                        <a href="#">
                             <img alt="logo" src="http://www.safarya.com/static/img/logo.png" /></a>
                     </div>
                     <div class="language col-md-2 col-sm-3">
