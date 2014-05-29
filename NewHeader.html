@@ -1,21 +1,19 @@
-﻿
-<style type="text/css">
-    #sample-IAN-header {
-        background-image: url(https://www.ian.com/affiliatecenter/IAN/images/sample-IAN-header-bg.jpg);
-        height: 58px;
+﻿<style type="text/css">
+    #pageWrap {
+        z-index:-1;
+        background-color:#ffffff;
+        width: 970px;
+        margin: 65px auto;
+        height: 104px;
+        border-width:1px;
+        border-style:solid;
+        border-color: #b2b2b2;
+        threeddarkshadow:#404040;
+        
     }
 
-    span#bigtxt {
-        color: #FFFFFF;
-        font-family: Verdana,Sans-Serif;
-        font-size: 50px;
-        line-height: normal;
-    }
-
-    #sample-IAN-nav {
-        background-image: url(https://www.ian.com/affiliatecenter/IAN/images/sample-IAN-header-gradient.gif);
-        background-repeat: repeat-x;
-        height: 25px;
+    #headerContainer {
+        display: inline-block;
     }
 
         #headerContainer #social a {
@@ -26,6 +24,7 @@
             background: url(http://www.safarya.com/static/images/iSocial.png) 0 0 no-repeat;
             text-indent: -999em;
         }
+
         #headerContainer #social #fb {
             background-position: -1px 0;
         }
@@ -42,45 +41,28 @@
             background-position: -90px 0;
         }
 
-        #headerContainer #bookingLogo {
-            text-align: right;
-            
-        }
-        #headerContainer img {
-        border: 0;
-        vertical-align: top;
-        max-width: 100%;
+    #bookingLogo, #social, #language, #logo {
+        float: left;
     }
 
-    #headerContainer:before {
-            background: url(../images/logoShadow.png) 0 0 no-repeat;
-            position: absolute;
-            top: 0;
-            left: -35px;
-            height: 136px;
-            width: 64px;
-            z-index: -1;
-        }
-
-        #headerContainer #logo {
-            text-align: left;
-            width: 28.66666667%;
-            float: left;
-            position: relative;
-            min-height: 1px;
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-
-    #pageWrap {
-        background: #fff;
-        
-    }
-
-    #headerContainer {
+    #logo {
+        width: 502px;
         position: relative;
-        display: inline-block;
-        width: 100%;
+        top: -53px;
+        left: 25px;
+    }
+
+
+    #social {
+        width: 225px;
+        position: relative;
+        top: 40px;
+    }
+
+    #bookingLogo {
+        width: 230px;
+        position: relative;
+        top: -35px;
     }
 </style>
 
